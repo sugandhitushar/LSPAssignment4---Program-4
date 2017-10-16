@@ -1,0 +1,19 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+Program which creates single thread and it accept one value from user and it return some value to the caller thread.
+
+
+Example -
+# make
+gcc -o threadDemo program.c -lpthread
+
+# make run
+./threadDemo
+Argument passed to thread: 20
+Result: 2
+Threads terminated.
